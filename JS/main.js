@@ -61,6 +61,14 @@ const typed = new Typed('.multiple-text', {
     loop: true,
 });
 
+/* const typedTwo = new Typed('#logo-tecn', {
+    strings: [''],
+    typeSpeed: 70,
+    backSpeed: 70,
+    backDelay: 1000,
+    loop: true,
+}); */
+
 /* ================== year =================== */ 
 
 var fecha = new Date();

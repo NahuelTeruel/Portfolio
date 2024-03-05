@@ -230,6 +230,10 @@ span {
     margin: 1rem 0 3rem;
 }
 
+.img-soft-skills {
+    height: 7rem;
+}
+
 .tecnologies-container #logo-tecn{
     font-size: 2.5rem;
 }
@@ -261,6 +265,7 @@ span {
 .tecnologies-container .tecnology p {
     color: var(--main-color);
     font-style: bold;
+    font-size: 1.2rem;
 }
 
 .tecnologies-container .tecnology:hover {
