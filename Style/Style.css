@@ -344,10 +344,6 @@ span {
     cursor: pointer;
 }
 
-.contact #truco {
-    opacity: 0;
-}
-
 .footer {
     display: flex;
     justify-content: space-between;
