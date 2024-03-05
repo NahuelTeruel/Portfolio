@@ -71,7 +71,7 @@ var fecha = new Date();
 
 /* =================== Contac ====================== */
 
-const $form = document.querySelector('#form')
+/* const $form = document.querySelector('#form')
 const $buttonMailto = document.querySelector('#truco')
 
 $form.addEventListener('submit', handleSubmit)
@@ -80,7 +80,7 @@ function handleSubmit(event) {
     event.preventDefault()
     const form = new FormData(this)
     /* console.log(form.get('name'),form.get('email'),form.get('number'),form.get('asunto'),form.get('message')) */
-    $buttonMailto.setAttribute('href', `mailto:teruelnahuel10@gmail.com?subject=#Nombre: ${form.get('name')} #Motivo: ${form.get('asunto')}&body=#Número: ${form.get('number')} #Mensaje: ${form.get('message')}`)
+    /* $buttonMailto.setAttribute('href', `mailto:teruelnahuel10@gmail.com?subject=#Nombre: ${form.get('name')} #Motivo: ${form.get('asunto')}&body=#Número: ${form.get('number')} #Mensaje: ${form.get('message')}`)
     $buttonMailto.click()
     $form.reset()
-}
+} */
