@@ -499,6 +499,18 @@ span {
         margin: 3rem 0;
     }
 
+    .header .flags {
+        width: 30%;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+    
+    .header img {
+        height: 30%;
+        width: 30%;
+    }
+
     .home {
         flex-direction: column;
     }
@@ -541,6 +553,18 @@ span {
     .home-img img {
         width: 90vw;
         margin-top: 8rem;
+    }
+
+    .header .flags {
+        width: 30%;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+    
+    .header img {
+        height: 30%;
+        width: 30%;
     }
 
     .about-img img {
