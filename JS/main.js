@@ -1,3 +1,5 @@
+/* import json from "../languages/es.json" assert {type:"json"} */
+
 /* =============== toggle icon navbar =============== */
 
 let menuIcon = document.querySelector('#menu-icon');
@@ -76,3 +78,19 @@ var fecha = new Date();
 
     // Mostrar el año en el elemento span
     document.getElementById("year").textContent = year;
+
+/*  ================= change language ====================== */
+/* const changeLanguage = async language => {
+    const requestJson = await fetch(`./languages/${language}.json`);
+    const texts = await requestJson.json();
+
+    console.log(json);
+}
+
+
+const flagsElement = document.getElementById("flags");
+
+flagsElement.addEventListener('click', e => {
+    changeLanguage(e.target.parentElement.dataset.language);
+    console.log(e.target.parentElement.dataset.language);
+}) */
