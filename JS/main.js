@@ -56,7 +56,7 @@ ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
 /* =============== typed js =============== */
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Information Systems Engineering Student', 'Web Designer'],
+    strings: ['Estudiante en Ingeniería en Sistemas', 'Desarrollador Web'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
